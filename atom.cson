@@ -1,0 +1,34 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b73898a8-3c12-4b24-b404-2ab53f68f3a8"
+  core:
+    disabledPackages: [
+      "linter-write-good"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "spacegray-atom-dark-syntax"
+    ]
+  editor:
+    preferredLineLength: 140
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "d33b0fdb-ec37-8dfe-b820-04d02408acc3"
+  linter: {}
+  "linter-jshint": {}
+  "linter-ui-default": {}
+  "spell-check":
+    addKnownWords: true
+    knownWords: [
+      "deauthorize"
+    ]
+    locales: [
+      "en-US"
+    ]
+  welcome:
+    showOnStartup: false
+
