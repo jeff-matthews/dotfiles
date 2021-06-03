@@ -1,8 +1,8 @@
 # This is my custom Git configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-        name = Jeff Matthews
-        email = matthews.jeffery@gmail.com
+	name = Jeff Matthews
+	email = matthews.jeffery@gmail.com
 
 [alias]
         co = checkout
@@ -22,3 +22,11 @@
         added = green bold
         changed = yellow bold
         untracked = red bold
+[core]
+	autocrlf = input
+	excludesfile = /Users/jeffmatthews/.gitignore_global
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
